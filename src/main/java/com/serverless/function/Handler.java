@@ -1,4 +1,4 @@
-package com.serverless;
+package com.serverless.function;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

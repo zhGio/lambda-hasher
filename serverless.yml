@@ -1,5 +1,5 @@
 
-service: function-name # NOTE: update this with your service name
+service: lambda-function-name # NOTE: update this with your service name
 
 
 provider:
@@ -13,6 +13,6 @@ package:
 
 functions:
   hello:
-    handler: com.serverless.Handler
+    handler: Handler
 
 
