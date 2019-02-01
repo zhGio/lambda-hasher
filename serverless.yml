@@ -1,0 +1,18 @@
+
+service: function-name # NOTE: update this with your service name
+
+
+provider:
+  name: aws
+  runtime: java8
+  region: eu-central-1
+  timeout: 10
+
+package:
+  artifact: target/hasher-1.0.jar
+
+functions:
+  hello:
+    handler: com.serverless.Handler
+
+
